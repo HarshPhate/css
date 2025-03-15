@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+.text-img{
+    font-size: 100px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png);
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

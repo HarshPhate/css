@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 8</title>
+    <style>
+        .container{
+            background-color: blue;
+            height: 60vh;
+           
+            position: relative;
+        }
+        .box{
+            background-color: red;
+            height: 70px;
+           width: 70px;
+    border-radius: 70px;
+    position: absolute;
+    bottom: 0;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: harshkaAnimation 3s linear infinite,
+    harsh2 1s ease-in-out infinite alternate;
+}
+    @keyframes harshkaAnimation{
+        from{
+           left: 0%;
+            
+        }
+        to{
+            left: 100%;
+        }
+    }
+     @keyframes harsh2 {
+        from{
+bottom: 0%;
+        }
+        to{
+            bottom: 100%;
+        } 
+    } 
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

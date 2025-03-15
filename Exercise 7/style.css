@@ -1,0 +1,106 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+.logo {}
+
+.logo img {
+    width: 134px;
+    margin: 0px 0px 6px;
+
+}
+
+nav {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+
+}
+
+.right ul li span {
+    padding: 0 5px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    justify-content: center;
+    align-items: center;
+    margin: 34px;
+}
+.first span{
+    font-size: 30px;
+}
+.first img{
+    margin: 0 23px;
+    width: 70px;
+}
+
+.first p {
+    width: 300px;
+    width: 571px;
+    text-align: center;
+}
+.btn{
+    background-color: #09c8e6;
+    color: rgb(245, 245, 245);
+    padding: 7px;
+    border-radius: 7px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    gap: 12px;
+
+}
+.second{
+    max-width: 50vw;
+   margin: auto;
+}
+.green{
+    background-color: #5cb85c;
+   
+}
+
+.item{
+    background-color: #ffffff;
+}
+.item-lang{
+    text-align: center;
+    padding-bottom:33px;
+    font-weight: 500;
+}
+.download :nth-child(2){
+    font-size: 23px;
+}
+.download img{
+    padding: 0px 12px;
+}
+.download{
+    display: flex;
+    font-family: sans-serif;
+    gap: 10px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1145px) {
+    .grid{ 
+        background-color: red;
+        grid-template-columns: 1fr; 
+    }
+}
